@@ -1,0 +1,33 @@
+.layout-container {
+  display: flex;
+  height: 100vh;
+}
+
+.navigation {
+  width: 10%;
+  background-color: #f4f4f4;
+  padding: 1rem;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.navigation ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navigation li {
+  margin: 1rem 0;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #333;
+}
+
+.content {
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto;
+  width:100vw;
+
+}
